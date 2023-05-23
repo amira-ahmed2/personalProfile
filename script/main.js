@@ -13,3 +13,5 @@ button.addEventListener("click",function(){
     }
     meta.setAttribute("href",theme)
 });
+
+document.addEventListener('contextmenu', event => event.preventDefault());
